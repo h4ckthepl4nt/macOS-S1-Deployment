@@ -11,3 +11,6 @@ MDM Settings could vary depending on the MDM you are using.
 1. Use the Workspace ONE Admin Assistant tool to prep the pkg for deployment
 2. Import the pkg and plist into your MDM and assign
 3. Add the scripts to your MDM and assign
+
+
+Replace all instances of "USERNAME" with that of the actual name of the account being used on the Mac.
