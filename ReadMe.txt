@@ -14,3 +14,5 @@ MDM Settings could vary depending on the MDM you are using.
 
 
 Replace all instances of "USERNAME" with that of the actual name of the account being used on the Mac.
+
+Any reference to a pkg file should be updated to reflect that of the actual name for your S1 pkg.
