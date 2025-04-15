@@ -12,6 +12,7 @@ else
 	echo "S1 PKG is available and will be copied."
 fi
 
+#Retreive generic user password from the keychain	(Recommend this method unless the password variable can be set another way)
 #password=$(security find-generic-password -a "USESRNAME" -w) 
 
 s1version1=$(echo $password | sudo -S /Library/Sentinel/sentinel-agent.bundle/Contents/MacOS/sentinelctl version)
