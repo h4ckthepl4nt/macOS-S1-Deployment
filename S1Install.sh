@@ -1,7 +1,6 @@
 #!/bin/sh
 S1INSTALL=/Applications/SentinelOne/
 S1PKG=/Library/Application\ Support/AirWatch/Data/Munki/Managed\ Installs/Cache/Sentinel-Release-24-4-1-7830_macos_v24_4_1_7830-24.4.1.7830.pkg
-FILE=/Library/Application\ Support/AirWatch/Data/Munki/Managed\ Installs/Cache/Sentinel-Release-24-4-1-7830_macos_v24_4_1_7830-24.4.1.7830.pkg
 
 #Check if S1 is already installed
 if [ -d "$S1INSTALL" ]; then
