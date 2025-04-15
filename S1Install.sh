@@ -24,7 +24,7 @@ else
 	#Copy payloads to local user directory
 	/bin/echo "eyJ1cmwiOiAiaHR0cHM6Ly91c2VhMS1jaHJpc3RpYW5hY2FyZS5zZW50aW5lbG9uZS5uZXQiLCAic2l0ZV9rZXkiOiAiZ19lZjUyZjRkYTRhMzQxNWUxIn0=" > "/Library/Application Support/AirWatch/Data/Munki/Managed Installs/Cache/com.sentinelone.registration-token"
 	echo $password | sudo -S cp '/Library/Application Support/AirWatch/Data/Munki/Managed Installs/Cache/com.sentinelone.registration-token' '/Users/USERNAME/Downloads'
-	echo $password | sudo -S cp '/Library/Application Support/AirWatch/Data/Munki/Managed Installs/Cache/Sentinel-Release-24-4-1-7830_macos_v24_4_1_7830-24.4.1.7830.pkg' '/Users/App.ws1.GCMac/Downloads/'
+	echo $password | sudo -S cp '/Library/Application Support/AirWatch/Data/Munki/Managed Installs/Cache/Sentinel-Release-24-4-1-7830_macos_v24_4_1_7830-24.4.1.7830.pkg' '/Users/USERNAME/Downloads/'
 
 	#Install S1 Agent
 	echo $password | sudo -S /usr/sbin/installer -pkg '/Users/USERNAME/Downloads/Sentinel-Release-24-4-1-7830_macos_v24_4_1_7830-24.4.1.7830.pkg' -target /
